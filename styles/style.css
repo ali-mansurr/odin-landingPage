@@ -19,6 +19,12 @@ body {
     height: auto;
 } */
 
+
+button {
+    background-color: #3882f6;
+    color: #fff;
+}
+
 .navbar a {
     text-decoration: none;
     color: #e5e7eb;
@@ -47,7 +53,6 @@ header .container {
 .navbar {
     list-style: none;
     display: flex;
-    flex-direction: column;
     gap: 20px;
 }
 
@@ -156,6 +161,37 @@ main {
     font-size: 18px;
     font-weight: 900;
 }
+
+.notification-section {
+    padding: 40px 0;
+    color: #E5E7EB;
+}
+
+.notif {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 20px 30px;
+}
+
+.notification-section h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.notification-section button {
+    background-color: #3882f6;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    flex-shrink: 0;
+}
+
 
 footer {
     background-color: #1f2937;
