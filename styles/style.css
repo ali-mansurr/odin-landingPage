@@ -57,7 +57,7 @@ main {
 
 .hero-section {
     background-color: #1f2937;
-    padding: 40px 0;
+    padding: 40px 0 60px;
 }
 
 .hero-section .container {
@@ -95,6 +95,48 @@ main {
     width: 30%;
     padding: 15px 0;
     border-radius: 10px;
+}
+
+.information-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.card {
+    width: 250px;
+}
+
+.card img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+    margin-bottom: 10px;
+}
+
+.info-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.information-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    color: #1F2937;
+}
+
+.information-section p {
+    line-height: 1.2;
+    color: #555;
 }
 
 footer {
