@@ -1,1 +1,63 @@
 @import url("./meyer-reset.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .logo {
+    width: 50px;
+    height: auto;
+} */
+
+.navbar a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.navbar a:hover {
+    color: #9fb7e7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 40px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 20px 0;
+    text-align: center;
+    color: #e5e7eb;
+}
